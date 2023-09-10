@@ -62,9 +62,9 @@ namespace BusinessDayCounter.Data
             ExtendHolidayIfWeekend = false,
             HolidayOccurenceType = HolidayOccurenceType.RepeatEveryYear,
             HolidayRuleType = HolidayRuleType.CertainDay_EveryYear,
-            DayOfWeek = DayOfWeek.Tuesday,
-            WeekOfMonth = WeekOfMonth.Fourth,
-            Month = Month.January
+            DayOfWeek = DayOfWeek.Monday,
+            WeekOfMonth = WeekOfMonth.Second,
+            Month = Month.June
          };
 
          publicHolidays.Add(publicHoliday);
